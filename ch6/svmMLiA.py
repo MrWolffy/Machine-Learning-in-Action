@@ -314,6 +314,9 @@ def img2vector(filename):
     return returnVect
 
 
+# 示例：手写识别问题回顾
+
+
 def loadImages(dirName):
     hwLabels = []
     trainingFileList = listdir(dirName)
