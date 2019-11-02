@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a30c74bf-8132-4686-b1be-22c42c6ae0a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch8/regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch9/regTrees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch9/treeExplore.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,19 +15,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch7/adaboost.py">
+        <entry file="file://$PROJECT_DIR$/ch9/regTrees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="171" selection-start-line="171" selection-end-line="171" />
+            <state relative-caret-position="366">
+              <caret line="224" column="18" selection-start-line="224" selection-start-column="18" selection-end-line="224" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch8/regression.py">
+        <entry file="file://$PROJECT_DIR$/ch9/treeExplore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="191" selection-start-line="191" selection-end-line="191" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -53,6 +57,8 @@
         <option value="$PROJECT_DIR$/ch6/svmMLiA.py" />
         <option value="$PROJECT_DIR$/ch7/adaboost.py" />
         <option value="$PROJECT_DIR$/ch8/regression.py" />
+        <option value="$PROJECT_DIR$/ch9/regTrees.py" />
+        <option value="$PROJECT_DIR$/ch9/treeExplore.py" />
       </list>
     </option>
   </component>
@@ -75,7 +81,7 @@
             <path>
               <item name="Machine-Learning-in-Action" type="b2602c69:ProjectViewProjectNode" />
               <item name="Machine-Learning-in-Action" type="462c0819:PsiDirectoryNode" />
-              <item name="ch8" type="462c0819:PsiDirectoryNode" />
+              <item name="ch9" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -120,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.regression">
+  <component name="RunManager" selected="Python.regTrees">
     <configuration name="adaboost" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine-Learning-in-Action" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,6 +163,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch5/logRegress.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="regTrees" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Machine-Learning-in-Action" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch9/regTrees.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,9 +242,11 @@
       <item itemvalue="Python.svmMLiA" />
       <item itemvalue="Python.adaboost" />
       <item itemvalue="Python.regression" />
+      <item itemvalue="Python.regTrees" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.regTrees" />
         <item itemvalue="Python.regression" />
         <item itemvalue="Python.adaboost" />
         <item itemvalue="Python.svmMLiA" />
@@ -236,12 +266,12 @@
       <updated>1571458725947</updated>
       <workItem from="1571458729782" duration="13674000" />
       <workItem from="1572444856581" duration="6287000" />
-      <workItem from="1572574708731" duration="7711000" />
+      <workItem from="1572574708731" duration="18569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27672000" />
+    <option name="totallyTimeSpent" value="38530000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -261,7 +291,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -286,6 +316,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$regression.coverage" NAME="regression Coverage Results" MODIFIED="1572607336036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch8" />
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$logRegress.coverage" NAME="logRegress Coverage Results" MODIFIED="1571468256387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch5" />
+    <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$regTrees.coverage" NAME="regTrees Coverage Results" MODIFIED="1572674691483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch9" />
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$svmMLiA.coverage" NAME="svmMLiA Coverage Results" MODIFIED="1571580582617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch6" />
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$adaboost.coverage" NAME="adaboost Coverage Results" MODIFIED="1572577193132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch7" />
   </component>
@@ -346,6 +377,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="191" selection-start-line="191" selection-end-line="191" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch9/regTrees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="224" column="18" selection-start-line="224" selection-start-column="18" selection-end-line="224" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch9/treeExplore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
