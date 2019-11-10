@@ -7,7 +7,7 @@ def loadDataSet(fileName):
     fr = open(fileName)
     for line in fr.readlines():
         curLine = line.strip().split('\t')
-        fltLine = list(map(float, curLine))
+        fltLine = list(map(float, curLine))     # 修改，原代码有bug
         dataMat.append(fltLine)
     return dataMat
 
