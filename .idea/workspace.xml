@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a30c74bf-8132-4686-b1be-22c42c6ae0a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch13/extras/createFig1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/extras/createFig2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/extras/createFig3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/extras/createFig4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/iris.data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/pca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/secom.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/testSet.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13/testSet3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch14/0_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch14/svdRec.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pca">
+  <component name="RunManager" selected="Python.svdRec">
     <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine-Learning-in-Action" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="regTrees" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="svdRec" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine-Learning-in-Action" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,12 +164,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch14" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch9/regTrees.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch14/svdRec.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,19 +179,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.regTrees" />
       <item itemvalue="Python.kMeans" />
       <item itemvalue="Python.apriori" />
       <item itemvalue="Python.fpGrowth" />
       <item itemvalue="Python.pca" />
+      <item itemvalue="Python.svdRec" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.svdRec" />
         <item itemvalue="Python.pca" />
         <item itemvalue="Python.fpGrowth" />
         <item itemvalue="Python.apriori" />
         <item itemvalue="Python.kMeans" />
-        <item itemvalue="Python.regTrees" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +211,7 @@
       <workItem from="1572704276123" duration="3346000" />
       <workItem from="1573386838015" duration="1237000" />
       <workItem from="1575180817364" duration="9894000" />
-      <workItem from="1575206217387" duration="3098000" />
+      <workItem from="1575206217387" duration="7077000" />
     </task>
     <servers />
   </component>
@@ -254,6 +247,7 @@
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$fpGrowth.coverage" NAME="fpGrowth Coverage Results" MODIFIED="1575206606800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch12" />
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$regTrees.coverage" NAME="regTrees Coverage Results" MODIFIED="1572674691483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch9" />
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$kMeans.coverage" NAME="kMeans Coverage Results" MODIFIED="1573387894766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch10" />
+    <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$svdRec.coverage" NAME="svdRec Coverage Results" MODIFIED="1575280167390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch14" />
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$logRegress.coverage" NAME="logRegress Coverage Results" MODIFIED="1571468256387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch5" />
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$adaboost.coverage" NAME="adaboost Coverage Results" MODIFIED="1572577193132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch7" />
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$svmMLiA.coverage" NAME="svmMLiA Coverage Results" MODIFIED="1571580582617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch6" />
