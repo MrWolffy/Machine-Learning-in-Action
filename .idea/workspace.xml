@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a30c74bf-8132-4686-b1be-22c42c6ae0a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch12/fpGrowth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch12/kosarak.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/extras/createFig1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/extras/createFig2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/extras/createFig3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/extras/createFig4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/iris.data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/pca.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/secom.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/testSet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/testSet3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +50,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -68,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fpGrowth">
+  <component name="RunManager" selected="Python.pca">
     <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine-Learning-in-Action" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,6 +141,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pca" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Machine-Learning-in-Action" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch13/pca.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="regTrees" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine-Learning-in-Action" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,42 +185,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Machine-Learning-in-Action" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch8/regression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.regression" />
       <item itemvalue="Python.regTrees" />
       <item itemvalue="Python.kMeans" />
       <item itemvalue="Python.apriori" />
       <item itemvalue="Python.fpGrowth" />
+      <item itemvalue="Python.pca" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pca" />
         <item itemvalue="Python.fpGrowth" />
         <item itemvalue="Python.apriori" />
         <item itemvalue="Python.kMeans" />
         <item itemvalue="Python.regTrees" />
-        <item itemvalue="Python.regression" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +218,7 @@
       <workItem from="1572704276123" duration="3346000" />
       <workItem from="1573386838015" duration="1237000" />
       <workItem from="1575180817364" duration="9894000" />
-      <workItem from="1575206217387" duration="280000" />
+      <workItem from="1575206217387" duration="3098000" />
     </task>
     <servers />
   </component>
@@ -251,6 +257,7 @@
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$logRegress.coverage" NAME="logRegress Coverage Results" MODIFIED="1571468256387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch5" />
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$adaboost.coverage" NAME="adaboost Coverage Results" MODIFIED="1572577193132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch7" />
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$svmMLiA.coverage" NAME="svmMLiA Coverage Results" MODIFIED="1571580582617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch6" />
+    <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$pca.coverage" NAME="pca Coverage Results" MODIFIED="1575255832582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch13" />
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$regression.coverage" NAME="regression Coverage Results" MODIFIED="1572607336036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch8" />
     <SUITE FILE_PATH="coverage/Machine_Learning_in_Action$apriori.coverage" NAME="apriori Coverage Results" MODIFIED="1575187981308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch11" />
   </component>
